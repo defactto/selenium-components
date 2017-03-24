@@ -5,12 +5,12 @@ from setuptools import setup
 setup(
     name = 'selenium_components',
     packages = ['selenium_components'], # this must be the same as the name above
-    version = '0.1',
+    version = '0.2',
     description = 'Page objects for common components',
     author = 'Jernej Makovsek',
     author_email = 'jernej.makovsek@gmail.com',
     url = 'https://github.com/defactto/selenium-components', # use the URL to the github repo
-    download_url = 'https://github.com/defactto/selenium-components/archive/0.1.tar.gz',
+    download_url = 'https://github.com/defactto/selenium-components/archive/0.2.tar.gz',
     keywords = ['testing', 'selenium', 'utils', 'webdriver', 'components', 'selenium-components'], # arbitrary keywords
     license = 'Apache 2.0',
     install_requires=['selenium', 'selenium-utils'],
